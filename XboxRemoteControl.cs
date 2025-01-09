@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,28 +5,40 @@ using UnityEngine.InputSystem;
 * XboxRemoteControl.cs
 * TODO Add other button input handling
 * TODO Generalise from depth perception app
+* TODO Comments and file summary
 */
 
 public class XboxRemoteControl : MonoBehaviour
 {
     public float moveSpeed = 1.0f;
     
-    public bool buttonA;
-    public bool buttonB;
-    public bool dpad;
+    private bool buttonA = false;
+    private bool buttonB = false;
+    private bool buttonX = false;
+    private bool buttonY = false;
+    private bool dpadUp = false;
+    private bool dpadDown = false;
+    private bool dpadLeft = false;
+    private bool dpadRight = false;
+    private bool rightButton = false;
+    private bool leftButton = false;
+    private bool rightTrigger = false;
+    private bool leftTrigger = false;
+
+    private void Start()
+    {
+        
+    }
 
     private void Update()
-    {
-        buttonA = false;
-        buttonB = false;
-        dpad = false;
-        
+    {    
         // Get the gamepad input
         var gamepad = Gamepad.current;
         if (gamepad == null)
         {
             return; // No gamepad connected
         }
+
 
         if (gameObject.GetComponent<MeshRenderer>().enabled)
         {
