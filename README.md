@@ -31,4 +31,4 @@ Anywhere indicated with ***bold and italic followed by a superscript number***<s
 1. Elaboration on the uncertainty indicated earlier in the file.
 
 
-[Back to jacobHobbs1.github.io](https://jacobhobbs1.github.io)
+[Back to jacobhobbs1.github.io](https://jacobhobbs1.github.io)
