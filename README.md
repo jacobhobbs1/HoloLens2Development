@@ -18,7 +18,7 @@ The MarkDown files listed below describe the content and solutions, some may poi
 - [StoreToFile.md](StoreToFile.md) - Storing to, accessing, and reading from files
 - [sfx.md](sfx.md) - Sound effects in Unity for the HoloLens 2
 
-## This is an Organic Repository
+## This is an Live Repository
 
 Anywhere indicated with ***bold and italic followed by a superscript number***<sup>2</sup> represents doubt or something that should be checked. Footnotes at the bottom elaborate.
 
