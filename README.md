@@ -13,10 +13,13 @@ The MarkDown files listed below describe the content and solutions, some may poi
 - [README.md]() - (This file) Overview of repository content
 - [HoloLensAndUnity.md](HoloLensAndUnity.md) - An overview of what Unity and the HoloLens are doing under the hood and how they work, e.g. ***XYZ coordinate systems***<sup>1</sup>.
 - [ProjectSetupPackages.md](ProjectSetupPackages.md) - How to set up a project and deploy to the HoloLens. Install and utilisation of the Mixed Reality Feature Tool, MRTK, and packages.
+- [mrtk.md](mrtk.md) - Mixed Reality Tool Kit setup and basics.
+- [desktopApp.md](desktopApp.md) - Microsoft HoloLens desktop app setup and usage.
 - [XboxControllerInput.md](XboxContollerInput.md) - Using a Bluetooth Xbox contoller with the HoloLens 2.
 - [Shadows.md](Shadows.md) - Implementing shadows from virtual object to virtual object, and virtual object to physical scene.
-- [StoreToFile.md](StoreToFile.md) - Storing to, accessing, and reading from files
-- [sfx.md](sfx.md) - Sound effects in Unity for the HoloLens 2
+- [StoreToFile.md](StoreToFile.md) - Storing to, accessing, and reading from files.
+- [sfx.md](sfx.md) - Sound effects in Unity for the HoloLens 2.
+- [msic.md](misc.md) - Miscelaneous information and links to useful section of Microsoft documentation or useful explainers.
 
 ## This is an Organic Repository
 
