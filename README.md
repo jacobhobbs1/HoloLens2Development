@@ -21,7 +21,7 @@ The MarkDown files listed below describe the content and solutions, some may poi
 - [sfx.md](sfx.md) - Sound effects in Unity for the HoloLens 2.
 - [msic.md](misc.md) - Miscelaneous information and links to useful section of Microsoft documentation or useful explainers.
 
-## This is an Organic Repository
+## This is an Live Repository
 
 Anywhere indicated with ***bold and italic followed by a superscript number***<sup>2</sup> represents doubt or something that should be checked. Footnotes at the bottom elaborate.
 
@@ -34,4 +34,4 @@ Anywhere indicated with ***bold and italic followed by a superscript number***<s
 1. Elaboration on the uncertainty indicated earlier in the file.
 
 
-[Back to jacobHobbs1.github.io](https://jacobhobbs1.github.io)
+[Back to jacobhobbs1.github.io](https://jacobhobbs1.github.io)
