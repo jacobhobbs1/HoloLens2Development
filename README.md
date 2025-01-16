@@ -1,5 +1,5 @@
 
-# HoloLens 2 Development Guide
+# HoloLens 2 Development Information
 ## Experiential Documentation From Developing with the Microsoft HoloLens 2
 
 This document contains potential useful informaiton and tips for developing mixed reality applications for the Microsoft HoloLens 2 with the Unity game engine. This has been developed through experiential learning and is therefore for a compilation of Microsoft documentation and solutions to problems as relevant to the porjects in hand. 
