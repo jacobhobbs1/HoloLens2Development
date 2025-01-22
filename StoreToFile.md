@@ -8,7 +8,8 @@ However, to save data to a file that can be offloaded from the HoloLens is more 
 ## Storing to a file
 ### Storing Data to a File to Access Only within the Application
 
-See [this documentation](https://learn.microsoft.com/en-us/answers/questions/1179853/hololens-2-development-create-edit-and-write-files) (untested).
+See [this documentation](https://learn.microsoft.com/en-us/windows/uwp/files/quickstart-reading-and-writing-files), and [this forum answer](https://learn.microsoft.com/en-us/answers/questions/1179853/ hololens-2-development-create-edit-and-write-files) (untested).
+
 
 ### Storing Data to a File to Access Off the Device
 
