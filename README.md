@@ -19,7 +19,7 @@ The MarkDown files listed below describe the content and solutions, some may poi
 - [Shadows.md](Shadows.md) - Implementing shadows from virtual object to virtual object, and virtual object to physical scene.
 - [StoreToFile.md](StoreToFile.md) - Storing to, accessing, and reading from files.
 - [sfx.md](sfx.md) - Sound effects in Unity for the HoloLens 2.
-- [msic.md](misc.md) - Miscelaneous information and links to useful section of Microsoft documentation or useful explainers.
+- [msic.md](misc.md) - Miscelaneous information and links to useful sections of Microsoft documentation or useful explainers.
 
 ## This is an Live Repository
 
