@@ -1,7 +1,7 @@
 # Store to File
 ## Overview
 
-Storing to a file can be difficult depending on the context of what the data is for and how it needs to be accessed later. For data to be used aolely within an application to contain data to persist between scenes or between application loads is fairly straight forward. See [this documentation](https://learn.microsoft.com/en-us/answers/questions/1179853/hololens-2-development-create-edit-and-write-files) to create, write, and read files. 
+Storing to a file can be difficult depending on the context of what the data is for and how it needs to be accessed later. For data to be used solely within an application e.g. to contain data to persist between scenes or between application loads is fairly straight forward. See [this documentation](https://learn.microsoft.com/en-us/answers/questions/1179853/hololens-2-development-create-edit-and-write-files) to create, write, and read files. 
 
 However, to save data to a file that can be offloaded from the HoloLens is more difficult. The file system accessible when the HoloLens is plugged into a PC cannot be accessed by an application without the user specifying the location they want to save a file to manually. It is assumed that this is a safeguarding feature implemented by Microsoft to prevent attacks, but it means that in practice, for this task, a work around is required. 
 
@@ -13,7 +13,7 @@ See [this documentation](https://learn.microsoft.com/en-us/windows/uwp/files/qui
 
 ### Storing Data to a File to Access Off the Device
 
-The file system accessible when the HoloLens is plugged into a PC cannot be accessed by an application without the user specifying the location they want to save a file to manually, using a file picker. It is assumed that this is a safeguarding feature implemented by Microsoft to prevent attacks, but it means that in practice, to write to a file accessible by PC later, the user must identify the location to store the file manually. 
+The file system accessible when the HoloLens is plugged into a PC cannot be accessed by an application without the user specifying the location they want to save a file to manually, using a file picker. It is assumed that this is a safeguarding feature implemented by Microsoft to prevent attacks but it means that in practice, to write to a file accessible by PC later, the user must identify the location to store the file to manually. 
 
 The location chosen by the user persists between scenes ***(and maybe between application loads?)***<sup>1</sup>. This means that the location can be set before it's needed and called when the file is required. 
 
